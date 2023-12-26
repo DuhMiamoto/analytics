@@ -1,7 +1,7 @@
 # Portfólio de Data & Analytics
 Este portfólio apresenta três projetos desenvolvidos para análise de dados, contribuindo para a composição do meu portfólio profissional.
 
-Os projetos foram inspirados e seguem as orientações de Alex the Analyst, cujos tutoriais estão disponíveis no YouTube por meio do seguinte link.
+Os projetos foram inspirados e seguem as orientações de Alex the Analyst, cujos tutoriais estão disponíveis no YouTube por meio do seguinte [link](https://www.youtube.com/watch?v=qfyynHBFOsM&list=PLUaB-1hjhk8H48Pj32z4GZgGWyylqv85f&index=1)
 
 **Projeto 1:** Análise de Dados do COVID-19
 O primeiro projeto concentra-se na exploração de dados relacionados ao COVID-19, abrangendo o período de 17/03/2020 a 24/12/2023. Os detalhes e a consulta SQL podem ser encontrados neste arquivo [SQLCovid](SQLCovid.sql)
