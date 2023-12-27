@@ -14,3 +14,18 @@ O primeiro projeto concentra-se na exploração de dados relacionados ao COVID-1
 
 O painel no Tableau apresenta diversas métricas, gráficos e informações dinâmicas que proporcionam uma compreensão mais profunda dos dados do COVID-19, permitindo uma análise mais abrangente das tendências e variações ao longo do tempo.[Painel](https://public.tableau.com/app/profile/eduardo.miamoto/viz/CovidDashboard_17036074077940/Painel1?publish=yes)
 <a href="https://imgur.com/euZvF8K"><img src="image/tableau.png" title="source: imgur.com" /></a>
+
+**Projeto 2:** Limpeza e Preparação de Dados do NashvileHousing
+
+O segundo projeto concentrou-se na limpeza e preparação dos dados provenientes do conjunto de dados "NashvileHousing". Este conjunto está disponível para acesso [aqui](data/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx). Para executar a limpeza, utilizei o SQL Server Management Studio e desenvolvi o código SQL, acessível por meio deste arquivo [SQLNashville](SQLNashvile.sql).
+
+#### Processo de Limpeza:
+- Normalização do Endereço: Dividi o campo de endereço em três colunas distintas: Rua, Cidade e Estado. Isso foi realizado utilizando técnicas como SUBSTRING, CHARINDEX e posteriormente o PARSENAME, garantindo a separação adequada dos elementos do endereço para facilitar a análise futura.
+
+- Padronização de Dados: Para garantir uniformidade e consistência, substituí "Y" por "YES" e "N" por "NÃO" em determinadas colunas, tornando todos os dados mais legíveis e compreensíveis.
+
+- Remoção de Duplicatas: Identifiquei e removi entradas duplicadas, mantendo assim a integridade e a precisão dos dados, evitando redundâncias que poderiam distorcer análises futuras.
+
+- Eliminação de Colunas Não Utilizadas: Analisei e removi colunas que não continham informações relevantes ou que não seriam utilizadas nos objetivos propostos, mantendo o conjunto de dados mais enxuto e focado nos aspectos essenciais para análise.
+
+Através dessas etapas de limpeza e preparação dos dados, o conjunto de dados do NashvileHousing foi refinado, padronizado e organizado de maneira que se tornasse mais amigável e pronto para ser utilizado em análises mais aprofundadas.
